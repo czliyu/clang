@@ -7,6 +7,11 @@
 
 #include <stdio.h>
 
+unsigned setbits(unsigned x, int p, int n, unsigned y)
+{
+    
+}
+
 unsigned getbits(unsigned x, int p, int n)
 {
     return (x >> (p+1-n)) & ~(~0<<n);
